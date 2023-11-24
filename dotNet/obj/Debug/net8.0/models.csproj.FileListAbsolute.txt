@@ -1,0 +1,15 @@
+C:\Estudo-Programacao\Avanade\dotNet\bin\Debug\net8.0\models.exe
+C:\Estudo-Programacao\Avanade\dotNet\bin\Debug\net8.0\models.deps.json
+C:\Estudo-Programacao\Avanade\dotNet\bin\Debug\net8.0\models.runtimeconfig.json
+C:\Estudo-Programacao\Avanade\dotNet\bin\Debug\net8.0\models.dll
+C:\Estudo-Programacao\Avanade\dotNet\bin\Debug\net8.0\models.pdb
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.AssemblyInfoInputs.cache
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.AssemblyInfo.cs
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.csproj.CoreCompileInputs.cache
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.sourcelink.json
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.dll
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\refint\models.dll
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.pdb
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\models.genruntimeconfig.cache
+C:\Estudo-Programacao\Avanade\dotNet\obj\Debug\net8.0\ref\models.dll
