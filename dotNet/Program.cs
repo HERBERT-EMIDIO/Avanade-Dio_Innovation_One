@@ -20,7 +20,7 @@
 // 20. ARRAY = INT[] ARRAY = NEW INT[4]; OR INT[] ARRAY = NEW INT[]{42,75,74,61}; OR STRING[] NOMES = {"jan, "fev};
 // 21. FOREACH = SEM CONTADOR => FOREACH(INT IN ARRAY){CONSOLE.WRITELINE(INT)} : USAR QUANDO NÃO NECESSITA DE UM CONTADOR
 // 22. MUDANDO O TAMANHO DO ARREY =>COM A CLASS=> ARRAY.RESIZE(REF NOMEDOARRAYPARAAUMENTAR, NOVOTAMANHO.LENGTH * 2); =>obs: cria uma copia e aumenta o tamanho 
-// 23. LISTAS = É UM ARRAY MAIS COMPLETO => "MELHORADO" = NÃO NECESSITA DE UMA DECLARAÇÃO DE CAPACIDADE
+// 23. LISTAS = É UM ARRAY MAIS COMPLETO => "MELHORADO" = NÃO NECESSITA DE UMA DECLARAÇÃO DE CAPACIDADE/TAMANHO => List<string> nome =new List<string>();
 
 
 
@@ -36,6 +36,9 @@ using dotNet.models;
 // eu.Idade = 40;
 // eu.Apresentar();
 
+
+/*
+==============================INICIO===============================
 
 DateTime dataAtual = DateTime.Now;
 Console.WriteLine(dataAtual); // 24/11/2023 11:00:54
@@ -308,15 +311,48 @@ int[] arrey1Dobrado = new int[array1.Length * 2]; // aumentei pra 4 posições
 
 
 //Array.copy => para copiar
-Array.Copy(array1,arrey1Dobrado,array1.Length); // copia o... para... com a capacidade de...
+Array.Copy(array1, arrey1Dobrado, array1.Length); // copia o... para... com a capacidade de...
 
-arrey1Dobrado[2]=23;
-arrey1Dobrado[3]=24;
+arrey1Dobrado[2] = 23;
+arrey1Dobrado[3] = 24;
 
-int contador2 =0;
-foreach(int recebentoArrayDobrado in arrey1Dobrado){
+int contador2 = 0;
+foreach (int recebentoArrayDobrado in arrey1Dobrado)
+{
     Console.WriteLine($"posição numero: {contador2}=> recebendo: {recebentoArrayDobrado}");
     contador2++;
     Console.WriteLine("=====");
 }
 
+
+======================================================================================
+*/
+
+Console.WriteLine();
+Console.WriteLine("============== LIST =====================");
+//não necessita de informar/declarar sua capacidade=> ela já possui um array interno
+
+List<string> listString = new List<string>();
+
+//adicionar com : .add
+listString.Add("Herbert");
+listString.Add("Aline");
+
+//percorrer com o for
+Console.WriteLine();
+Console.WriteLine("============== USANDO O FOR =====================");
+for (int contador = 0; contador < listString.Count; contador++)
+{
+    Console.WriteLine($"Posição número: {contador} => {listString[contador]}");
+
+}
+
+//percorrendo uma lista com foreach
+
+Console.WriteLine("============== USANDO O FOREACH =====================");
+int contagem =0;
+foreach(string contadorLista in listString){
+    Console.WriteLine($"Posição número: {contagem} => {listString[contagem]}");
+    contagem++;
+
+}

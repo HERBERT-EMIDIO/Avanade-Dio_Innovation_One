@@ -1,0 +1,15 @@
+C:\Estudo-Programacao\Avanade\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+C:\Estudo-Programacao\Avanade\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+C:\Estudo-Programacao\Avanade\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+C:\Estudo-Programacao\Avanade\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+C:\Estudo-Programacao\Avanade\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+C:\Estudo-Programacao\Avanade\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
