@@ -9,10 +9,14 @@ namespace ExemploExplorando.Models
     {
         private string _nome;
 
-
+        private int _idade;
 
         public string Nome
         {
+
+            //uma forma de escrever com ayron =>
+            //get => _nome.ToUpper();
+
             get
             {
                 return _nome.ToUpper();
@@ -22,14 +26,27 @@ namespace ExemploExplorando.Models
             {
                 if (value == "")
                 {
-                    throw new ArgumentException("O nome não pode ser vazio");
+                    throw new ArgumentException("O nome não pode ser vazio!");
                 }
                 _nome = value;
             }
         }
 
 
-        public int Idade { get; set; }
+        public int Idade
+        {
+            get => _idade;
+            
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Idade inválida!");
+                }
+
+                _idade = value;
+            }
+        }
 
 
 
