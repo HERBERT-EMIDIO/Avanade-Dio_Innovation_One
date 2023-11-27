@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -8,10 +9,12 @@ namespace ExemploExplorando.Models
     public class Pessoa
     {
         private string _nome;
-
+        private string _sobrenome;
         private int _idade;
 
-        public string Nome
+
+
+        public string Nome //propriedade com get e set
         {
 
             //uma forma de escrever com ayron =>
@@ -33,10 +36,19 @@ namespace ExemploExplorando.Models
         }
 
 
+        public string Sobrenome { get; set; } // Propriedade  só para get
+
+
+
+        // Criando uma propriedade para exibir o nome completo só com o get
+        public string NomeCompleto => $"{this.Nome} {this.Sobrenome}".ToUpper();
+
+
+
         public int Idade
         {
             get => _idade;
-            
+
             set
             {
                 if (value < 0)
@@ -50,9 +62,12 @@ namespace ExemploExplorando.Models
 
 
 
-        public void Apresentar()
+        public void Apresentar() // métodos
         {
-            Console.WriteLine($"Olá, meu nome é {this.Nome}, eu tenho {this.Idade} anos.");
+            Console.WriteLine($"Olá, meu nome é {NomeCompleto}, eu tenho {this.Idade} anos.");
         }
+
+
+
     }
 }

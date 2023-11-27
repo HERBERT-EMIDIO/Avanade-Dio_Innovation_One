@@ -1,0 +1,15 @@
+C:\Estudo-Programacao\Avanade\ExemploCurso\bin\Debug\net8.0\ExemploCurso.exe
+C:\Estudo-Programacao\Avanade\ExemploCurso\bin\Debug\net8.0\ExemploCurso.deps.json
+C:\Estudo-Programacao\Avanade\ExemploCurso\bin\Debug\net8.0\ExemploCurso.runtimeconfig.json
+C:\Estudo-Programacao\Avanade\ExemploCurso\bin\Debug\net8.0\ExemploCurso.dll
+C:\Estudo-Programacao\Avanade\ExemploCurso\bin\Debug\net8.0\ExemploCurso.pdb
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.AssemblyInfoInputs.cache
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.AssemblyInfo.cs
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.csproj.CoreCompileInputs.cache
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.sourcelink.json
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.dll
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\refint\ExemploCurso.dll
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.pdb
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ExemploCurso.genruntimeconfig.cache
+C:\Estudo-Programacao\Avanade\ExemploCurso\obj\Debug\net8.0\ref\ExemploCurso.dll
