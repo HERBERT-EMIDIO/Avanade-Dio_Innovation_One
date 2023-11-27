@@ -2,19 +2,19 @@
 
 using ExemploCurso.Models;
 
-Pessoa p1 = new Pessoa();
-p1.Nome ="Herbert";
-p1.Idade =40;
-p1.Sobrenome="Emidio";
+Pessoa p1 = new Pessoa(nome: "Herbert", sobrenome: "Emidio");
+//p1.Nome ="Herbert";
+//p1.Sobrenome="Emidio";
+p1.Idade = 40;
 
-Pessoa p2 = new Pessoa();
-p2.Nome="Aline";
-p2.Idade =39;
-p2.Sobrenome="Cavalcante";
+Pessoa p2 = new Pessoa(nome: "Aline", sobrenome: "Cavalcante");
+//p2.Nome="Aline";
+//p2.Sobrenome="Cavalcante";
+p2.Idade = 39;
 
 
-Curso cursoDeIngles = new Curso();
-cursoDeIngles.NomeCurso ="Ingles";
+Curso cursoDeIngles = new Curso("Ingles");
+//cursoDeIngles.NomeCurso ="Ingles";
 cursoDeIngles.Alunos = new List<Pessoa>();
 
 cursoDeIngles.AdicionarAluno(p1);

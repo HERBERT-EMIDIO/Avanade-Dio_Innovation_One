@@ -8,6 +8,11 @@ namespace ExemploCurso.Models
     public class Curso
     {
 
+// 2 Construtores 
+public Curso(){}
+public Curso(string nomeCurso){
+    this.NomeCurso = nomeCurso;
+}
 
         //propriedades
         public string NomeCurso { get; set; }
@@ -42,7 +47,7 @@ namespace ExemploCurso.Models
             foreach (Pessoa alunos in Alunos)
             {
                 contador++;
-                Console.WriteLine($"Aluno {contador}:  {alunos.NomeCompletp}");
+                Console.WriteLine($"Aluno {contador}:  {alunos.NomeCompleto}");
             }
         }
 

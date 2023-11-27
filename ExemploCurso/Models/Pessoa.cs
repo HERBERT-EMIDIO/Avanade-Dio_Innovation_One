@@ -8,14 +8,30 @@ namespace ExemploCurso.Models
     public class Pessoa
     {
 
-//Atributos
+        //Construtor
+        public Pessoa() { }
+        public Pessoa(string nome, string sobrenome)
+        {
+
+            this.Nome = nome;
+            this.Sobrenome = sobrenome;
+
+        }
+
+
+
+
+        //Atributos
         private string _nome;
         private int _idade;
-//Propriedades
 
+
+
+
+        //Propriedades
         public string Nome { get; set; }
-        public string  Sobrenome { get; set; }
-        public string NomeCompletp => $"Meu nome é {this.Nome} {this.Sobrenome}";
+        public string Sobrenome { get; set; }
+        public string NomeCompleto => $"Meu nome é {this.Nome} {this.Sobrenome}";
         public int Idade
         {
             get => _idade;
@@ -27,14 +43,14 @@ namespace ExemploCurso.Models
                 }
             }
         }
-        
 
 
 
-//Métodos
+
+        //Métodos
         public void Apresentar()
         {
-            Console.WriteLine($"Olá meu nome é {NomeCompletp} e minha idade é {Idade}");
+            Console.WriteLine($"Olá meu nome é {NomeCompleto.ToUpper()} e minha idade é {Idade}");
         }
     }
 }
